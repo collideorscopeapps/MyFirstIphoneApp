@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5pg-KS-V8T">
+                                <rect key="frame" x="20" y="394" width="374" height="118"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BpC-Pm-PzH">
+                                        <rect key="frame" x="8" y="-2" width="358" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Keb-uN-Vas">
+                                        <rect key="frame" x="171" y="36" width="32" height="30"/>
+                                        <state key="normal" title="Invia"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sd5-2m-fBd">
+                                        <rect key="frame" x="175.5" y="74" width="23" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="sd5-2m-fBd" firstAttribute="centerX" secondItem="5pg-KS-V8T" secondAttribute="centerX" id="7My-E5-arb"/>
+                                    <constraint firstItem="sd5-2m-fBd" firstAttribute="top" secondItem="Keb-uN-Vas" secondAttribute="bottom" constant="8" id="iCi-nn-U10"/>
+                                    <constraint firstItem="Keb-uN-Vas" firstAttribute="top" secondItem="BpC-Pm-PzH" secondAttribute="bottom" constant="8" id="qqi-bf-Rhd"/>
+                                    <constraint firstItem="Keb-uN-Vas" firstAttribute="centerX" secondItem="5pg-KS-V8T" secondAttribute="centerX" id="snM-p0-GHd"/>
+                                    <constraint firstAttribute="trailing" secondItem="BpC-Pm-PzH" secondAttribute="trailing" constant="8" id="yX1-aI-0XT"/>
+                                    <constraint firstAttribute="bottom" secondItem="sd5-2m-fBd" secondAttribute="bottom" constant="23" id="zvQ-gt-uTB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BpC-Pm-PzH" secondAttribute="trailing" constant="28" id="4XI-FB-Wos"/>
+                            <constraint firstItem="5pg-KS-V8T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Dec-Cb-hrj"/>
+                            <constraint firstItem="5pg-KS-V8T" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JoP-1l-qAU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5pg-KS-V8T" secondAttribute="trailing" constant="20" id="Qew-Gg-T8N"/>
+                            <constraint firstItem="BpC-Pm-PzH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="bkt-Rn-Ske"/>
+                            <constraint firstItem="BpC-Pm-PzH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="348" id="mtD-Uh-fSb"/>
+                            <constraint firstItem="5pg-KS-V8T" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="rbj-wf-eq6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="outputLabel" destination="sd5-2m-fBd" id="W99-QZ-XZV"/>
+                        <outlet property="testoTextField" destination="BpC-Pm-PzH" id="YCg-8V-ccw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="95.758928571428569"/>
+        </scene>
+    </scenes>
+</document>
