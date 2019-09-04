@@ -21,6 +21,14 @@
     [testoTextField resignFirstResponder];
 }
 
+- (IBAction)goToNextViewController:(id)sender {
+    
+    ViewController2 *vc2 = [self.storyboard instantiateViewControllerWithIdentifier:@"viewController2"];
+    
+    [self presentViewController:vc2
+                       animated:YES completion:NULL];
+}
+
 - (void)send {
     
     outputLabel.text = testoTextField.text;
