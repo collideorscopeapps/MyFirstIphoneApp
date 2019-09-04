@@ -15,6 +15,7 @@
 		80F56F24231FE53100724E1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F56F23231FE53100724E1A /* main.m */; };
 		80F56F2E231FE53100724E1A /* MyFirstIphoneAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F56F2D231FE53100724E1A /* MyFirstIphoneAppTests.m */; };
 		80F56F39231FE53100724E1A /* MyFirstIphoneAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F56F38231FE53100724E1A /* MyFirstIphoneAppUITests.m */; };
+		80F56F4823200C6600724E1A /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F56F4723200C6600724E1A /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		80F56F34231FE53100724E1A /* MyFirstIphoneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstIphoneAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F56F38231FE53100724E1A /* MyFirstIphoneAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstIphoneAppUITests.m; sourceTree = "<group>"; };
 		80F56F3A231FE53100724E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F56F4623200C6600724E1A /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		80F56F4723200C6600724E1A /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				80F56F15231FE52A00724E1A /* AppDelegate.m */,
 				80F56F17231FE52A00724E1A /* ViewController.h */,
 				80F56F18231FE52A00724E1A /* ViewController.m */,
+				80F56F4623200C6600724E1A /* ViewController2.h */,
+				80F56F4723200C6600724E1A /* ViewController2.m */,
 				80F56F1A231FE52A00724E1A /* Main.storyboard */,
 				80F56F1D231FE53100724E1A /* Assets.xcassets */,
 				80F56F1F231FE53100724E1A /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F56F19231FE52A00724E1A /* ViewController.m in Sources */,
+				80F56F4823200C6600724E1A /* ViewController2.m in Sources */,
 				80F56F24231FE53100724E1A /* main.m in Sources */,
 				80F56F16231FE52A00724E1A /* AppDelegate.m in Sources */,
 			);
