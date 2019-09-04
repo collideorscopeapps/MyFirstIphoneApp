@@ -16,7 +16,22 @@
 
 - (IBAction)sendAction:(id)sender {
     
+    [self send];
+    
+    [testoTextField resignFirstResponder];
+}
+
+- (void)send {
+    
     outputLabel.text = testoTextField.text;
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    
+    [self send];
+    [textField resignFirstResponder];
+    
+    return YES;
 }
 
 - (void)viewDidLoad {
