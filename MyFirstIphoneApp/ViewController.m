@@ -16,6 +16,7 @@
 
 - (IBAction)sendAction:(id)sender {
     
+    outputLabel.text = testoTextField.text;
 }
 
 - (void)viewDidLoad {
