@@ -108,8 +108,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="ejY-CT-hRT" id="x30-Ic-wQQ"/>
-                                    <outlet property="delegate" destination="ejY-CT-hRT" id="oqc-eH-0CZ"/>
+                                    <outlet property="dataSource" destination="ejY-CT-hRT" id="vms-l1-4l5"/>
+                                    <outlet property="delegate" destination="ejY-CT-hRT" id="XCW-j3-hcz"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -117,7 +117,7 @@
                         <viewLayoutGuide key="safeArea" id="cI3-cT-RbM"/>
                     </view>
                     <connections>
-                        <outlet property="tabella" destination="i1n-TX-yST" id="knk-Lm-e6Y"/>
+                        <outlet property="tabella" destination="i1n-TX-yST" id="coK-aD-wat"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m6L-eJ-MBe" userLabel="First Responder" sceneMemberID="firstResponder"/>
