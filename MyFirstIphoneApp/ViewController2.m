@@ -14,6 +14,26 @@
 
 @implementation ViewController2
 
+- (NSInteger) numberOfSelectionsInTableView:(UITableView *)tableView {
+ 
+    return 1;
+}
+
+- (NSInteger) tableView:(UITableView *)tableView
+  numberOfRowsInSection:(NSInteger)section{
+    
+    return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         callForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID" forIndexPath:indexPath];
+    
+    cell.textLabel.text = @"CIAO";
+    return cell;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

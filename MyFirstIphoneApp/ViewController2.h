@@ -10,7 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ViewController2 : UIViewController
+@interface ViewController2 : UIViewController <UITableViewDelegate,
+UITableViewDataSource> {
+    
+    __weak IBOutlet UITableView *tabella;
+}
 
 @end
 
